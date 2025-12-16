@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['empty', 'fuel_icon', 'full', 'guage_area', 'needle_center', 'needle_tip']
+
+roboflow:
+  workspace: sachin-sangwan
+  project: detection-adckb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sachin-sangwan/detection-adckb/dataset/2
