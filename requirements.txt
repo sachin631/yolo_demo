@@ -3,4 +3,7 @@ uvicorn
 ultralytics
 opencv-python-headless
 python-multipart
-gunicorn
+
+# FORCE CPU TORCH
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
