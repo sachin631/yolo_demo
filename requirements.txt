@@ -1,9 +1,7 @@
 fastapi
 uvicorn
-ultralytics
-opencv-python-headless
 python-multipart
-
-# FORCE CPU TORCH
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
+opencv-python-headless
+ultralytics
+torch
+torchvision
